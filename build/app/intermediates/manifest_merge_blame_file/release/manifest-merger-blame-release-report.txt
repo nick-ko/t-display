@@ -1,0 +1,318 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tinitz.dysplay.borne"
+4    android:versionCode="14"
+5    android:versionName="1.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:4:5-66
+11-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions options for the `notification` group -->
+13-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+13-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+14-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-iid:21.1.0] /Users/macbookpro/.gradle/caches/transforms-3/f3c0bfeb23f3caf00a4c63a5c517b2e0/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+15-->[com.google.firebase:firebase-iid:21.1.0] /Users/macbookpro/.gradle/caches/transforms-3/f3c0bfeb23f3caf00a4c63a5c517b2e0/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+16
+17    <application
+18        android:name="android.app.Application"
+18-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:9:9-42
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.8.0] /Users/macbookpro/.gradle/caches/transforms-3/54177d738635095a14224b1c04c3bcab/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+20        android:icon="@mipmap/launcher_icon"
+20-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:11:9-45
+21        android:label="Tinitz Display"
+21-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:8:9-39
+22        android:usesCleartextTraffic="true" >
+22-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:10:9-44
+23        <activity
+23-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:12:9-34:20
+24            android:name="com.tinitz.dysplay.borne.MainActivity"
+24-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:13:13-41
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:17:13-163
+26            android:exported="true"
+26-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:14:13-36
+27            android:hardwareAccelerated="true"
+27-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:18:13-47
+28            android:launchMode="singleTop"
+28-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:15:13-43
+29            android:theme="@style/LaunchTheme"
+29-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:16:13-47
+30            android:windowSoftInputMode="adjustResize" >
+30-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:19:13-55
+31
+32            <!--
+33                 Specifies an Android theme to apply to this Activity as soon as
+34                 the Android process has started. This theme is visible to the user
+35                 while the Flutter UI initializes. After that, this theme continues
+36                 to determine the Window background behind the Flutter UI.
+37            -->
+38            <meta-data
+38-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:24:13-27:17
+39                android:name="io.flutter.embedding.android.NormalTheme"
+39-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:25:15-70
+40                android:resource="@style/NormalTheme" />
+40-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:26:15-52
+41
+42            <intent-filter>
+42-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:28:13-33:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:29:17-68
+43-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:29:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:30:17-76
+45-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:30:27-74
+46
+47                <action android:name="androidx.media3.session.MediaLibraryService" />
+47-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:31:17-85
+47-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:31:25-83
+48                <action android:name="android.media.browse.MediaBrowserService" />
+48-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:32:17-83
+48-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:32:25-80
+49            </intent-filter>
+50        </activity>
+51        <!--
+52             Don't delete the meta-data below.
+53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+54        -->
+55        <meta-data
+55-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:37:9-39:33
+56            android:name="flutterEmbedding"
+56-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:38:13-44
+57            android:value="2" />
+57-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:39:13-30
+58
+59        <receiver
+59-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:41:9-48:20
+60            android:name="com.tinitz.dysplay.borne.BootReceiver"
+60-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:42:13-41
+61            android:enabled="true"
+61-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:43:13-35
+62            android:exported="false" >
+62-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:44:13-37
+63            <intent-filter>
+63-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:45:13-47:29
+64                <action android:name="android.intent.action.BOOT_COMPLETED" />
+64-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:46:17-79
+64-->/Users/macbookpro/Documents/Tinitz/tinitz_display/android/app/src/main/AndroidManifest.xml:46:25-76
+65            </intent-filter>
+66        </receiver>
+67
+68        <service
+68-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+69            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+69-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+70            android:exported="false"
+70-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+71            android:permission="android.permission.BIND_JOB_SERVICE" />
+71-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+72        <service
+72-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+73            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+73-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+74            android:exported="false" >
+74-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+75            <intent-filter>
+75-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+76                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+76-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+76-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+77            </intent-filter>
+78        </service>
+79
+80        <receiver
+80-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+81            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+81-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+82            android:exported="true"
+82-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+83            android:permission="com.google.android.c2dm.permission.SEND" >
+83-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+84            <intent-filter>
+84-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+85                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+85-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+85-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+86            </intent-filter>
+87        </receiver>
+88
+89        <service
+89-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-41:19
+90            android:name="com.google.firebase.components.ComponentDiscoveryService"
+90-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:18-89
+91            android:directBootAware="true"
+91-->[com.google.firebase:firebase-common:20.3.3] /Users/macbookpro/.gradle/caches/transforms-3/d2447a8411797021861c6c599bdf9163/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+92            android:exported="false" >
+92-->[com.google.firebase:firebase-iid:21.1.0] /Users/macbookpro/.gradle/caches/transforms-3/f3c0bfeb23f3caf00a4c63a5c517b2e0/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:31:13-37
+93            <meta-data
+93-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+94-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+96            <meta-data
+96-->[:firebase_core] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+97-->[:firebase_core] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[:firebase_core] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-iid:21.1.0] /Users/macbookpro/.gradle/caches/transforms-3/f3c0bfeb23f3caf00a4c63a5c517b2e0/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+100                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+100-->[com.google.firebase:firebase-iid:21.1.0] /Users/macbookpro/.gradle/caches/transforms-3/f3c0bfeb23f3caf00a4c63a5c517b2e0/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-iid:21.1.0] /Users/macbookpro/.gradle/caches/transforms-3/f3c0bfeb23f3caf00a4c63a5c517b2e0/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-messaging:23.2.0] /Users/macbookpro/.gradle/caches/transforms-3/7b9751657fdc24fe06db5f8ec8c82378/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:55:13-57:85
+103                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+103-->[com.google.firebase:firebase-messaging:23.2.0] /Users/macbookpro/.gradle/caches/transforms-3/7b9751657fdc24fe06db5f8ec8c82378/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:56:17-119
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-messaging:23.2.0] /Users/macbookpro/.gradle/caches/transforms-3/7b9751657fdc24fe06db5f8ec8c82378/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:57:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-installations:17.1.3] /Users/macbookpro/.gradle/caches/transforms-3/d3ac6ea05f084c91f543657888ce517c/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+106                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+106-->[com.google.firebase:firebase-installations:17.1.3] /Users/macbookpro/.gradle/caches/transforms-3/d3ac6ea05f084c91f543657888ce517c/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-installations:17.1.3] /Users/macbookpro/.gradle/caches/transforms-3/d3ac6ea05f084c91f543657888ce517c/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/macbookpro/.gradle/caches/transforms-3/342b8b830119fa599d883f425e25c3db/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+109                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+109-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/macbookpro/.gradle/caches/transforms-3/342b8b830119fa599d883f425e25c3db/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/macbookpro/.gradle/caches/transforms-3/342b8b830119fa599d883f425e25c3db/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+111        </service>
+112
+113        <provider
+113-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+114            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+114-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+115            android:authorities="com.tinitz.dysplay.borne.flutterfirebasemessaginginitprovider"
+115-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+116            android:exported="false"
+116-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+117            android:initOrder="99" />
+117-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+118
+119        <uses-library
+119-->[androidx.window:window:1.0.0-beta04] /Users/macbookpro/.gradle/caches/transforms-3/f72f5b657580d8de5d31b7080314fc5e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+120            android:name="androidx.window.extensions"
+120-->[androidx.window:window:1.0.0-beta04] /Users/macbookpro/.gradle/caches/transforms-3/f72f5b657580d8de5d31b7080314fc5e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+121            android:required="false" />
+121-->[androidx.window:window:1.0.0-beta04] /Users/macbookpro/.gradle/caches/transforms-3/f72f5b657580d8de5d31b7080314fc5e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+122        <uses-library
+122-->[androidx.window:window:1.0.0-beta04] /Users/macbookpro/.gradle/caches/transforms-3/f72f5b657580d8de5d31b7080314fc5e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+123            android:name="androidx.window.sidecar"
+123-->[androidx.window:window:1.0.0-beta04] /Users/macbookpro/.gradle/caches/transforms-3/f72f5b657580d8de5d31b7080314fc5e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+124            android:required="false" />
+124-->[androidx.window:window:1.0.0-beta04] /Users/macbookpro/.gradle/caches/transforms-3/f72f5b657580d8de5d31b7080314fc5e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+125
+126        <receiver
+126-->[com.google.firebase:firebase-messaging:23.2.0] /Users/macbookpro/.gradle/caches/transforms-3/7b9751657fdc24fe06db5f8ec8c82378/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:31:9-38:20
+127            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+127-->[com.google.firebase:firebase-messaging:23.2.0] /Users/macbookpro/.gradle/caches/transforms-3/7b9751657fdc24fe06db5f8ec8c82378/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:32:13-78
+128            android:exported="true"
+128-->[com.google.firebase:firebase-messaging:23.2.0] /Users/macbookpro/.gradle/caches/transforms-3/7b9751657fdc24fe06db5f8ec8c82378/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:33:13-36
+129            android:permission="com.google.android.c2dm.permission.SEND" >
+129-->[com.google.firebase:firebase-messaging:23.2.0] /Users/macbookpro/.gradle/caches/transforms-3/7b9751657fdc24fe06db5f8ec8c82378/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:34:13-73
+130            <intent-filter>
+130-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+131                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+131-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+131-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+132            </intent-filter>
+133        </receiver>
+134        <!--
+135             FirebaseMessagingService performs security checks at runtime,
+136             but set to not exported to explicitly avoid allowing another app to call it.
+137        -->
+138        <service
+138-->[com.google.firebase:firebase-messaging:23.2.0] /Users/macbookpro/.gradle/caches/transforms-3/7b9751657fdc24fe06db5f8ec8c82378/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:44:9-51:19
+139            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+139-->[com.google.firebase:firebase-messaging:23.2.0] /Users/macbookpro/.gradle/caches/transforms-3/7b9751657fdc24fe06db5f8ec8c82378/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:45:13-82
+140            android:directBootAware="true"
+140-->[com.google.firebase:firebase-messaging:23.2.0] /Users/macbookpro/.gradle/caches/transforms-3/7b9751657fdc24fe06db5f8ec8c82378/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:46:13-43
+141            android:exported="false" >
+141-->[com.google.firebase:firebase-messaging:23.2.0] /Users/macbookpro/.gradle/caches/transforms-3/7b9751657fdc24fe06db5f8ec8c82378/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:47:13-37
+142            <intent-filter android:priority="-500" >
+142-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+143                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+143-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+143-->[:firebase_messaging] /Users/macbookpro/Documents/Tinitz/tinitz_display/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+144            </intent-filter>
+145        </service>
+146
+147        <provider
+147-->[com.google.firebase:firebase-common:20.3.3] /Users/macbookpro/.gradle/caches/transforms-3/d2447a8411797021861c6c599bdf9163/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+148            android:name="com.google.firebase.provider.FirebaseInitProvider"
+148-->[com.google.firebase:firebase-common:20.3.3] /Users/macbookpro/.gradle/caches/transforms-3/d2447a8411797021861c6c599bdf9163/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+149            android:authorities="com.tinitz.dysplay.borne.firebaseinitprovider"
+149-->[com.google.firebase:firebase-common:20.3.3] /Users/macbookpro/.gradle/caches/transforms-3/d2447a8411797021861c6c599bdf9163/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+150            android:directBootAware="true"
+150-->[com.google.firebase:firebase-common:20.3.3] /Users/macbookpro/.gradle/caches/transforms-3/d2447a8411797021861c6c599bdf9163/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+151            android:exported="false"
+151-->[com.google.firebase:firebase-common:20.3.3] /Users/macbookpro/.gradle/caches/transforms-3/d2447a8411797021861c6c599bdf9163/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+152            android:initOrder="100" />
+152-->[com.google.firebase:firebase-common:20.3.3] /Users/macbookpro/.gradle/caches/transforms-3/d2447a8411797021861c6c599bdf9163/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+153
+154        <activity
+154-->[com.google.android.gms:play-services-base:18.0.1] /Users/macbookpro/.gradle/caches/transforms-3/feffcf88f9687d6fcd6a756671d7a572/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+155            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+155-->[com.google.android.gms:play-services-base:18.0.1] /Users/macbookpro/.gradle/caches/transforms-3/feffcf88f9687d6fcd6a756671d7a572/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+156            android:exported="false"
+156-->[com.google.android.gms:play-services-base:18.0.1] /Users/macbookpro/.gradle/caches/transforms-3/feffcf88f9687d6fcd6a756671d7a572/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+157-->[com.google.android.gms:play-services-base:18.0.1] /Users/macbookpro/.gradle/caches/transforms-3/feffcf88f9687d6fcd6a756671d7a572/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+158
+159        <meta-data
+159-->[com.google.android.gms:play-services-basement:18.1.0] /Users/macbookpro/.gradle/caches/transforms-3/d16adf7e96e28cdf18ae780029443d5f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+160            android:name="com.google.android.gms.version"
+160-->[com.google.android.gms:play-services-basement:18.1.0] /Users/macbookpro/.gradle/caches/transforms-3/d16adf7e96e28cdf18ae780029443d5f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+161            android:value="@integer/google_play_services_version" />
+161-->[com.google.android.gms:play-services-basement:18.1.0] /Users/macbookpro/.gradle/caches/transforms-3/d16adf7e96e28cdf18ae780029443d5f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+162
+163        <service
+163-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/macbookpro/.gradle/caches/transforms-3/76ac7b33807d34b0afc889881e19082a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+164            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+164-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/macbookpro/.gradle/caches/transforms-3/76ac7b33807d34b0afc889881e19082a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+165            android:exported="false" >
+165-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/macbookpro/.gradle/caches/transforms-3/76ac7b33807d34b0afc889881e19082a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+166            <meta-data
+166-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/macbookpro/.gradle/caches/transforms-3/76ac7b33807d34b0afc889881e19082a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+167                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+167-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/macbookpro/.gradle/caches/transforms-3/76ac7b33807d34b0afc889881e19082a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+168                android:value="cct" />
+168-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/macbookpro/.gradle/caches/transforms-3/76ac7b33807d34b0afc889881e19082a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+169        </service>
+170        <service
+170-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/macbookpro/.gradle/caches/transforms-3/11102844471a0b63e17279f3db8979e4/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+171            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+171-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/macbookpro/.gradle/caches/transforms-3/11102844471a0b63e17279f3db8979e4/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+172            android:exported="false"
+172-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/macbookpro/.gradle/caches/transforms-3/11102844471a0b63e17279f3db8979e4/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+173            android:permission="android.permission.BIND_JOB_SERVICE" >
+173-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/macbookpro/.gradle/caches/transforms-3/11102844471a0b63e17279f3db8979e4/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+174        </service>
+175
+176        <receiver
+176-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/macbookpro/.gradle/caches/transforms-3/11102844471a0b63e17279f3db8979e4/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+177            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+177-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/macbookpro/.gradle/caches/transforms-3/11102844471a0b63e17279f3db8979e4/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+178            android:exported="false" />
+178-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/macbookpro/.gradle/caches/transforms-3/11102844471a0b63e17279f3db8979e4/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+179    </application>
+180
+181</manifest>

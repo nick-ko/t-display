@@ -1,0 +1,12 @@
+dev.fluttercommunity.plus.connectivity.connectivity_plus-core-1.6.0-0 /Users/macbookpro/.gradle/caches/transforms-3/1b1794d41006e285f5c1614be1fb1133/transformed/core-1.6.0/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-window-java-1.0.0-beta04-1 /Users/macbookpro/.gradle/caches/transforms-3/c9965c4fca7f7c382299f41b6b34fa94/transformed/jetified-window-java-1.0.0-beta04/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-window-1.0.0-beta04-2 /Users/macbookpro/.gradle/caches/transforms-3/f72f5b657580d8de5d31b7080314fc5e/transformed/jetified-window-1.0.0-beta04/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-annotation-experimental-1.1.0-3 /Users/macbookpro/.gradle/caches/transforms-3/f8c049dddc68cdc3ef3a642da3ff561a/transformed/jetified-annotation-experimental-1.1.0/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-main-4 /Users/macbookpro/.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/android/src/main/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-release-5 /Users/macbookpro/.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/android/src/release/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-pngs-6 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/connectivity_plus/generated/res/pngs/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-resValues-7 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/connectivity_plus/generated/res/resValues/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-rs-8 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/connectivity_plus/generated/res/rs/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-9 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/connectivity_plus/intermediates/incremental/release/mergeReleaseResources/merged.dir
+dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-10 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/connectivity_plus/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-11 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/connectivity_plus/intermediates/merged_res/release

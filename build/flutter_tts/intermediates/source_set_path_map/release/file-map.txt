@@ -1,0 +1,14 @@
+com.tundralabs.fluttertts.flutter_tts-core-1.8.0-0 /Users/macbookpro/.gradle/caches/transforms-3/54177d738635095a14224b1c04c3bcab/transformed/core-1.8.0/res
+com.tundralabs.fluttertts.flutter_tts-jetified-core-ktx-1.8.0-1 /Users/macbookpro/.gradle/caches/transforms-3/544d7d070eaac5bb57f0b70ac081dfe6/transformed/jetified-core-ktx-1.8.0/res
+com.tundralabs.fluttertts.flutter_tts-lifecycle-runtime-2.3.1-2 /Users/macbookpro/.gradle/caches/transforms-3/72d2b34c1b0cdca6bf8921b1c78364cf/transformed/lifecycle-runtime-2.3.1/res
+com.tundralabs.fluttertts.flutter_tts-jetified-window-java-1.0.0-beta04-3 /Users/macbookpro/.gradle/caches/transforms-3/c9965c4fca7f7c382299f41b6b34fa94/transformed/jetified-window-java-1.0.0-beta04/res
+com.tundralabs.fluttertts.flutter_tts-jetified-window-1.0.0-beta04-4 /Users/macbookpro/.gradle/caches/transforms-3/f72f5b657580d8de5d31b7080314fc5e/transformed/jetified-window-1.0.0-beta04/res
+com.tundralabs.fluttertts.flutter_tts-jetified-annotation-experimental-1.1.0-5 /Users/macbookpro/.gradle/caches/transforms-3/f8c049dddc68cdc3ef3a642da3ff561a/transformed/jetified-annotation-experimental-1.1.0/res
+com.tundralabs.fluttertts.flutter_tts-main-6 /Users/macbookpro/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/android/src/main/res
+com.tundralabs.fluttertts.flutter_tts-release-7 /Users/macbookpro/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/android/src/release/res
+com.tundralabs.fluttertts.flutter_tts-pngs-8 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/flutter_tts/generated/res/pngs/release
+com.tundralabs.fluttertts.flutter_tts-resValues-9 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/flutter_tts/generated/res/resValues/release
+com.tundralabs.fluttertts.flutter_tts-rs-10 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/flutter_tts/generated/res/rs/release
+com.tundralabs.fluttertts.flutter_tts-mergeReleaseResources-11 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/flutter_tts/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.tundralabs.fluttertts.flutter_tts-mergeReleaseResources-12 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/flutter_tts/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.tundralabs.fluttertts.flutter_tts-merged_res-13 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/flutter_tts/intermediates/merged_res/release

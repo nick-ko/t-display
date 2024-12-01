@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">570463753229-i73p9rrq2496njep4p15gm0iv1fhfk7e.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">570463753229</string>
+    <string name="google_api_key" translatable="false">AIzaSyCUOO89wQz7vUzkVaEm7vOfwXo5hERlk6k</string>
+    <string name="google_app_id" translatable="false">1:570463753229:android:3c65aafbf0d812da33f144</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCUOO89wQz7vUzkVaEm7vOfwXo5hERlk6k</string>
+    <string name="google_storage_bucket" translatable="false">tinitzapp.appspot.com</string>
+    <string name="project_id" translatable="false">tinitzapp</string>
+</resources>

@@ -1,0 +1,14 @@
+io.flutter.plugins.videoplayer.video_player_android-jetified-exoplayer-core-2.18.7-0 /Users/macbookpro/.gradle/caches/transforms-3/46e7858a99b8f3b5a7d7b0e10cd32bde/transformed/jetified-exoplayer-core-2.18.7/res
+io.flutter.plugins.videoplayer.video_player_android-core-1.7.0-1 /Users/macbookpro/.gradle/caches/transforms-3/60028714c7a7b84ceed31b03453720b6/transformed/core-1.7.0/res
+io.flutter.plugins.videoplayer.video_player_android-lifecycle-runtime-2.3.1-2 /Users/macbookpro/.gradle/caches/transforms-3/72d2b34c1b0cdca6bf8921b1c78364cf/transformed/lifecycle-runtime-2.3.1/res
+io.flutter.plugins.videoplayer.video_player_android-jetified-window-java-1.0.0-beta04-3 /Users/macbookpro/.gradle/caches/transforms-3/c9965c4fca7f7c382299f41b6b34fa94/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.videoplayer.video_player_android-jetified-window-1.0.0-beta04-4 /Users/macbookpro/.gradle/caches/transforms-3/f72f5b657580d8de5d31b7080314fc5e/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.videoplayer.video_player_android-jetified-annotation-experimental-1.1.0-5 /Users/macbookpro/.gradle/caches/transforms-3/f8c049dddc68cdc3ef3a642da3ff561a/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.videoplayer.video_player_android-main-6 /Users/macbookpro/.pub-cache/hosted/pub.dev/video_player_android-2.4.10/android/src/main/res
+io.flutter.plugins.videoplayer.video_player_android-release-7 /Users/macbookpro/.pub-cache/hosted/pub.dev/video_player_android-2.4.10/android/src/release/res
+io.flutter.plugins.videoplayer.video_player_android-pngs-8 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/video_player_android/generated/res/pngs/release
+io.flutter.plugins.videoplayer.video_player_android-resValues-9 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/video_player_android/generated/res/resValues/release
+io.flutter.plugins.videoplayer.video_player_android-rs-10 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/video_player_android/generated/res/rs/release
+io.flutter.plugins.videoplayer.video_player_android-mergeReleaseResources-11 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/video_player_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.videoplayer.video_player_android-mergeReleaseResources-12 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/video_player_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.videoplayer.video_player_android-merged_res-13 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/video_player_android/intermediates/merged_res/release

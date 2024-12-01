@@ -1,0 +1,12 @@
+com.tekartik.sqflite-core-1.6.0-0 /Users/macbookpro/.gradle/caches/transforms-3/1b1794d41006e285f5c1614be1fb1133/transformed/core-1.6.0/res
+com.tekartik.sqflite-jetified-window-java-1.0.0-beta04-1 /Users/macbookpro/.gradle/caches/transforms-3/c9965c4fca7f7c382299f41b6b34fa94/transformed/jetified-window-java-1.0.0-beta04/res
+com.tekartik.sqflite-jetified-window-1.0.0-beta04-2 /Users/macbookpro/.gradle/caches/transforms-3/f72f5b657580d8de5d31b7080314fc5e/transformed/jetified-window-1.0.0-beta04/res
+com.tekartik.sqflite-jetified-annotation-experimental-1.1.0-3 /Users/macbookpro/.gradle/caches/transforms-3/f8c049dddc68cdc3ef3a642da3ff561a/transformed/jetified-annotation-experimental-1.1.0/res
+com.tekartik.sqflite-main-4 /Users/macbookpro/.pub-cache/hosted/pub.dev/sqflite-2.3.3+1/android/src/main/res
+com.tekartik.sqflite-release-5 /Users/macbookpro/.pub-cache/hosted/pub.dev/sqflite-2.3.3+1/android/src/release/res
+com.tekartik.sqflite-pngs-6 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/sqflite/generated/res/pngs/release
+com.tekartik.sqflite-resValues-7 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/sqflite/generated/res/resValues/release
+com.tekartik.sqflite-rs-8 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/sqflite/generated/res/rs/release
+com.tekartik.sqflite-mergeReleaseResources-9 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/sqflite/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.tekartik.sqflite-mergeReleaseResources-10 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/sqflite/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.tekartik.sqflite-merged_res-11 /Users/macbookpro/Documents/Tinitz/tinitz_display/build/sqflite/intermediates/merged_res/release
